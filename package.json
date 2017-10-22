@@ -1,0 +1,31 @@
+{
+  "name": "simian-store-client",
+  "version": "0.0.1",
+  "description": "Client for the simian-store.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshat1/simian-store-client.git"
+  },
+  "author": "akshat.sh@gmail.com",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/akshat1/simian-store-client/issues"
+  },
+  "homepage": "https://github.com/akshat1/simian-store-client#readme",
+  "dependencies": {
+    "fetch-ponyfill": "^4.1.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-simian": "0.0.3"
+  }
+}
